@@ -3,7 +3,9 @@ Add new folder named <i>"RPG_Files"</i> to the same folder as file <i>"run_route
 Run: php -f run_route_permutation_generator.php<br>
 # 
 <p>
-This script generates all possible route permutations between 2 stops, given datasets of routes from different modes of transport (e.g. MyCiti Bus Routes and Metrorail Train Routes) in order to find the shortest or quickest route between 2 GPS locations using muliple modes of transport (MOT == Mode of Transport).
+This script generates all possible route permutations between 2 stops, given datasets of routes from different modes of transport (e.g. MyCiti Bus Routes and Metrorail Train Routes) in order to find the shortest or quickest route between 2 GPS locations.
+<br>
+<i>(MOT == Mode of Transport).</i>
 </p>
 <p>This is achieved in the following way:</p>
 From File: “stop_route_proximity_table.php”:
