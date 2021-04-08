@@ -28,3 +28,6 @@ From File: “route_permutation.php”, Class: “Route_Permutation”:
     <li>The current Route Permutation will then proceed to the next Stop on it’s route and perfrom step 2 and 3.</li>
     <li>If the Destination Stop is reached by the end of the Route Permutation’s investigation, the Route Permutation is saved to the database with the Start and Destination Stops as the index.</li>
 </ol>
+<p>
+The Route_Permutation_Stack class controls all instances of the Route_Permutation class (i.e. When to run, Updates to relevant variables and when to kill the instance) and comunicates via server sockets.
+</p>
